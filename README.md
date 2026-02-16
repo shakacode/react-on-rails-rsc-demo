@@ -67,8 +67,8 @@ RSC requires three separate webpack builds running simultaneously:
 
 ### Prerequisites
 
-- Ruby 3.2+
-- Node.js 20+
+- Ruby 3.3+
+- Node.js 22+
 - React on Rails Pro license ([get a free trial](mailto:justin@shakacode.com))
 
 ### Setup
@@ -106,8 +106,8 @@ rails new rsc_demo
 cd rsc_demo
 
 # Add to Gemfile:
-# gem 'react_on_rails', '~> 16.2'
-# gem 'react_on_rails_pro', '~> 16.2'
+# gem 'react_on_rails', '~> 16.4'
+# gem 'react_on_rails_pro', '~> 16.4'
 
 bundle install
 
