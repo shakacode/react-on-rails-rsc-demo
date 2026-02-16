@@ -1,0 +1,21 @@
+<h1>Product Catalog — RSC Streaming Demo</h1>
+
+<p>
+  This page demonstrates <strong>streaming with React Server Components</strong>.
+  Watch the products appear, then reviews stream in progressively as each
+  <code>&lt;Suspense&gt;</code> boundary resolves.
+</p>
+
+<p style="font-size: 0.85em; color: #6b7280;">
+  💡 <strong>Tip:</strong> Open DevTools → Network tab to see that only AddToCart client
+  component JS is loaded. All product rendering, date formatting, and price formatting
+  stay on the server.
+</p>
+
+<%= stream_react_component('ProductCatalog', props: @product_catalog_props, prerender: true) %>
+
+<hr style="margin-top: 32px;">
+
+<p>
+  <a href="/hello_server">← Back to HelloServer demo</a>
+</p>

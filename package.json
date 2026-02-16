@@ -1,0 +1,26 @@
+{
+  "name": "react-on-rails-rsc-demo",
+  "private": true,
+  "scripts": {
+    "build": "shakapacker",
+    "build:dev": "shakapacker --mode development",
+    "prepack": "shakapacker"
+  },
+  "dependencies": {
+    "react": "~19.0.4",
+    "react-dom": "~19.0.4",
+    "react-on-rails-pro": "16.2.0",
+    "react-on-rails-pro-node-renderer": "16.2.0",
+    "react-on-rails-rsc": "16.2.0"
+  },
+  "devDependencies": {
+    "@swc/core": "^1.7.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "swc-loader": "^0.2.0",
+    "typescript": "^5.6.0",
+    "shakapacker": "9.3.0",
+    "webpack": "^5.90.0",
+    "webpack-cli": "^5.1.0"
+  }
+}

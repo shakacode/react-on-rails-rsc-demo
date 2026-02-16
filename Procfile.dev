@@ -1,0 +1,5 @@
+rails: bin/rails s -p 3000
+dev-server: bin/shakapacker-dev-server
+server-bundle: SERVER_BUNDLE_ONLY=yes bin/shakapacker --watch
+node-renderer: RENDERER_LOG_LEVEL=debug RENDERER_PORT=3800 node client/node-renderer.js
+rsc-bundle: RSC_BUNDLE_ONLY=yes bin/shakapacker --watch
